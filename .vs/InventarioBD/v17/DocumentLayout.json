@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clash\\source\\repos\\InventarioBD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|C:\\Users\\clash\\source\\repos\\InventarioBD\\inventariobd\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\usuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\usuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|C:\\Users\\clash\\source\\repos\\InventarioBD\\inventariobd\\interfaz\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|c:\\users\\clash\\source\\repos\\inventariobd\\inventariobd\\interfaz\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|C:\\Users\\clash\\source\\repos\\InventarioBD\\inventariobd\\interfaz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|C:\\Users\\clash\\source\\repos\\InventarioBD\\inventariobd\\clases\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\clases\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|C:\\Users\\clash\\source\\repos\\InventarioBD\\inventariobd\\interfaz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BB42B90-A734-40ED-A3DF-BD56A380979F}|InventarioBD\\InventarioBD.csproj|solutionrelative:inventariobd\\interfaz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Usuarios.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:58:08.144Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Usuarios.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Usuarios.cs",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Usuarios.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwCgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:57:48.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Usuarios.Designer.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Usuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Usuarios.Designer.cs",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Usuarios.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:56:42.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Consulta.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Consulta.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Consulta.cs",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Consulta.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:47:45.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Departamentos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Departamentos.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Departamentos.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Departamentos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Departamentos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:23:18.831Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Consulta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Consulta.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Consulta.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Consulta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Consulta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:23:15.908Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Validaciones.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Clases\\Validaciones.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Clases\\Validaciones.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Clases\\Validaciones.cs",
+              "RelativeToolTip": "InventarioBD\\Clases\\Validaciones.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowDwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:57:40.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Equipos.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Equipos.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Equipos.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Equipos.cs",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Equipos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:42:34.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Clases\\Conexion.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Clases\\Conexion.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Clases\\Conexion.cs",
+              "RelativeToolTip": "InventarioBD\\Clases\\Conexion.cs",
+              "ViewState": "AQIAAMcBAAAAAAAAAAAmwOABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:25:49.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Menu.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Menu.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Menu.cs",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Menu.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawCIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:45:51.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Equipos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Equipos.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Equipos.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Equipos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Equipos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:38:07.957Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Menu.cs",
+              "RelativeDocumentMoniker": "InventarioBD\\Interfaz\\Menu.cs",
+              "ToolTip": "C:\\Users\\clash\\source\\repos\\InventarioBD\\InventarioBD\\Interfaz\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioBD\\Interfaz\\Menu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:34:16.115Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

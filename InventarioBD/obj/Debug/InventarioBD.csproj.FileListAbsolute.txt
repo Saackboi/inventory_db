@@ -1,0 +1,13 @@
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\bin\Debug\InventarioBD.exe.config
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\bin\Debug\InventarioBD.exe
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\bin\Debug\InventarioBD.pdb
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.AssemblyReference.cache
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Equipos.resources
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Menu.resources
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Properties.Resources.resources
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.GenerateResource.cache
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.CoreCompileInputs.cache
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.exe
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.pdb
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Departamentos.resources
+C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Consulta.resources
