@@ -31,8 +31,8 @@
             this.btnEquipos = new System.Windows.Forms.Button();
             this.btnDepartamentos = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
-            this.btnMovimiento = new System.Windows.Forms.Button();
-            this.btnUsuario = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnMovimientos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEquipos
@@ -47,7 +47,7 @@
             // 
             // btnDepartamentos
             // 
-            this.btnDepartamentos.Location = new System.Drawing.Point(111, 161);
+            this.btnDepartamentos.Location = new System.Drawing.Point(111, 108);
             this.btnDepartamentos.Name = "btnDepartamentos";
             this.btnDepartamentos.Size = new System.Drawing.Size(183, 23);
             this.btnDepartamentos.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnConsultas
             // 
-            this.btnConsultas.Location = new System.Drawing.Point(120, 154);
+            this.btnConsultas.Location = new System.Drawing.Point(120, 213);
             this.btnConsultas.Name = "btnConsultas";
             this.btnConsultas.Size = new System.Drawing.Size(164, 23);
             this.btnConsultas.TabIndex = 2;
@@ -65,11 +65,33 @@
             this.btnConsultas.UseVisualStyleBackColor = true;
             this.btnConsultas.Click += new System.EventHandler(this.btnConsultas_Click);
             // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.Location = new System.Drawing.Point(108, 161);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(183, 23);
+            this.btnUsuarios.TabIndex = 3;
+            this.btnUsuarios.Text = "GESTIÓN DE USUARIOS";
+            this.btnUsuarios.UseVisualStyleBackColor = true;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuario_Click);
+            // 
+            // btnMovimientos
+            // 
+            this.btnMovimientos.Location = new System.Drawing.Point(108, 258);
+            this.btnMovimientos.Name = "btnMovimientos";
+            this.btnMovimientos.Size = new System.Drawing.Size(183, 23);
+            this.btnMovimientos.TabIndex = 4;
+            this.btnMovimientos.Text = "GESTION MOVIMIENTOS";
+            this.btnMovimientos.UseVisualStyleBackColor = true;
+            this.btnMovimientos.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(398, 344);
+            this.Controls.Add(this.btnMovimientos);
+            this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.btnConsultas);
             this.Controls.Add(this.btnDepartamentos);
             this.Controls.Add(this.btnEquipos);
@@ -85,6 +107,8 @@
         private System.Windows.Forms.Button btnEquipos;
         private System.Windows.Forms.Button btnDepartamentos;
         private System.Windows.Forms.Button btnConsultas;
+        private System.Windows.Forms.Button btnUsuarios;
+        private System.Windows.Forms.Button btnMovimientos;
     }
 }
 

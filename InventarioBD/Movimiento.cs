@@ -92,5 +92,16 @@ namespace InventarioBD.Interfaz
             }
         }
 
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Movimiento
+            // 
+            this.ClientSize = new System.Drawing.Size(476, 352);
+            this.Name = "Movimiento";
+            this.ResumeLayout(false);
+
+        }
     }
 }

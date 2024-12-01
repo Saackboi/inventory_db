@@ -11,7 +11,7 @@ namespace InventarioBD.Clases
 {
     internal class Conexion
     {
-        string cnString = @"Server=DESKTOP-V43A7H3\SQLEXPRESS; Database=inventario; Integrated Security=True;";
+        string cnString = @"Server=LAPTOP-5PR20G61; Database=inventario; Integrated Security=True;";
 
         public Conexion()
         {
@@ -504,13 +504,6 @@ namespace InventarioBD.Clases
             }
         }
 
-        //--------------------------------------------CONSULTAS PARA GESTION EQUIPO MOVIMIENTOS-------------------------------------------
-
-
-    }
-
-}
-    
 
         //--------------------------------------------CONSULTAS PARA GESTION EQUIPO MOVIMIENTOS-------------------------------------------
         public void registrarMovimiento(string placa, string motivo, string lugar, string observacion)
