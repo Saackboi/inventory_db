@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -63,7 +64,7 @@ namespace InventarioBD
             }
 
             // Ruta donde se guardará el PDF
-            string rutaPDF = @"C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\Reporte.pdf";
+            string rutaPDF = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ReporteConsulta.pdf"); ;
 
             try
             {
