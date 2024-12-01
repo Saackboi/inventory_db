@@ -11,7 +11,7 @@ namespace InventarioBD.Clases
 {
     internal class Conexion
     {
-        string cnString = @"Server=LAPTOP-5PR20G61; Database=inventario; Integrated Security=True;";
+        string cnString = @"Server=DESKTOP-V43A7H3\SQLEXPRESS; Database=inventario; Integrated Security=True;";
 
         public Conexion()
         {
@@ -522,6 +522,33 @@ namespace InventarioBD.Clases
                     cmd.ExecuteNonQuery();
                 }
             }
+        }
+
+        public DataTable ObtenerMovimientoEquipo()
+        {
+            DataTable dataTable = new DataTable();
+            using (SqlConnection connection = new SqlConnection(cnString))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "SELECT * FROM equipo_movimiento"; 
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                        {
+                            adapter.Fill(dataTable);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Manejo de errores 
+                    Console.WriteLine($"Error al obtener datos: {ex.Message}");
+                }
+            }
+            return dataTable;
         }
     }
 }

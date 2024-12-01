@@ -40,6 +40,8 @@
             this.txtObservacion = new System.Windows.Forms.TextBox();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.lblEquipo = new System.Windows.Forms.Label();
+            this.gpbMotivo = new System.Windows.Forms.GroupBox();
+            this.gpbMotivo.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRegistrar
@@ -75,7 +77,7 @@
             // rdbPrestamo
             // 
             this.rdbPrestamo.AutoSize = true;
-            this.rdbPrestamo.Location = new System.Drawing.Point(34, 122);
+            this.rdbPrestamo.Location = new System.Drawing.Point(6, 42);
             this.rdbPrestamo.Name = "rdbPrestamo";
             this.rdbPrestamo.Size = new System.Drawing.Size(69, 17);
             this.rdbPrestamo.TabIndex = 3;
@@ -86,7 +88,7 @@
             // rdbReparacion
             // 
             this.rdbReparacion.AutoSize = true;
-            this.rdbReparacion.Location = new System.Drawing.Point(34, 99);
+            this.rdbReparacion.Location = new System.Drawing.Point(6, 19);
             this.rdbReparacion.Name = "rdbReparacion";
             this.rdbReparacion.Size = new System.Drawing.Size(80, 17);
             this.rdbReparacion.TabIndex = 4;
@@ -97,7 +99,7 @@
             // lblMotivo
             // 
             this.lblMotivo.AutoSize = true;
-            this.lblMotivo.Location = new System.Drawing.Point(31, 83);
+            this.lblMotivo.Location = new System.Drawing.Point(15, 82);
             this.lblMotivo.Name = "lblMotivo";
             this.lblMotivo.Size = new System.Drawing.Size(42, 13);
             this.lblMotivo.TabIndex = 5;
@@ -153,11 +155,23 @@
             this.lblEquipo.TabIndex = 11;
             this.lblEquipo.Text = "Ingrese la placa del equipo:";
             // 
+            // gpbMotivo
+            // 
+            this.gpbMotivo.Controls.Add(this.rdbPrestamo);
+            this.gpbMotivo.Controls.Add(this.rdbReparacion);
+            this.gpbMotivo.Location = new System.Drawing.Point(12, 82);
+            this.gpbMotivo.Name = "gpbMotivo";
+            this.gpbMotivo.Size = new System.Drawing.Size(116, 71);
+            this.gpbMotivo.TabIndex = 12;
+            this.gpbMotivo.TabStop = false;
+            this.gpbMotivo.Text = "Motivo";
+            // 
             // Movimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 318);
+            this.Controls.Add(this.gpbMotivo);
             this.Controls.Add(this.lblEquipo);
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.txtObservacion);
@@ -165,13 +179,13 @@
             this.Controls.Add(this.txtLugar);
             this.Controls.Add(this.lblPlaceMovement);
             this.Controls.Add(this.lblMotivo);
-            this.Controls.Add(this.rdbReparacion);
-            this.Controls.Add(this.rdbPrestamo);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnImpr);
             this.Controls.Add(this.btnRegistrar);
             this.Name = "Movimiento";
             this.Text = "Movimiento";
+            this.gpbMotivo.ResumeLayout(false);
+            this.gpbMotivo.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,5 +205,6 @@
         private System.Windows.Forms.TextBox txtObservacion;
         private System.Windows.Forms.TextBox txtPlaca;
         private System.Windows.Forms.Label lblEquipo;
+        private System.Windows.Forms.GroupBox gpbMotivo;
     }
 }
