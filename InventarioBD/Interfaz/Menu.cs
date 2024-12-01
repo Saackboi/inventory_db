@@ -34,5 +34,11 @@ namespace InventarioBD
             Consulta con = new Consulta();
             con.Show();
         }
+
+        private void btnUsuario_Click(object sender, EventArgs e)
+        {
+            Usuarios usu = new Usuarios();
+            usu.Show();
+        }
     }
 }
