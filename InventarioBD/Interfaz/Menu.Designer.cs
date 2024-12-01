@@ -32,6 +32,7 @@
             this.btnDepartamentos = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
             this.btnMovimiento = new System.Windows.Forms.Button();
+            this.btnUsuario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEquipos
@@ -46,7 +47,7 @@
             // 
             // btnDepartamentos
             // 
-            this.btnDepartamentos.Location = new System.Drawing.Point(111, 99);
+            this.btnDepartamentos.Location = new System.Drawing.Point(111, 161);
             this.btnDepartamentos.Name = "btnDepartamentos";
             this.btnDepartamentos.Size = new System.Drawing.Size(183, 23);
             this.btnDepartamentos.TabIndex = 1;
@@ -64,22 +65,11 @@
             this.btnConsultas.UseVisualStyleBackColor = true;
             this.btnConsultas.Click += new System.EventHandler(this.btnConsultas_Click);
             // 
-            // btnMovimiento
-            // 
-            this.btnMovimiento.Location = new System.Drawing.Point(120, 276);
-            this.btnMovimiento.Name = "btnMovimiento";
-            this.btnMovimiento.Size = new System.Drawing.Size(164, 23);
-            this.btnMovimiento.TabIndex = 3;
-            this.btnMovimiento.Text = "MOVIMIENTO DE EQUIPO";
-            this.btnMovimiento.UseVisualStyleBackColor = true;
-            this.btnMovimiento.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(398, 344);
-            this.Controls.Add(this.btnMovimiento);
             this.Controls.Add(this.btnConsultas);
             this.Controls.Add(this.btnDepartamentos);
             this.Controls.Add(this.btnEquipos);
@@ -95,7 +85,6 @@
         private System.Windows.Forms.Button btnEquipos;
         private System.Windows.Forms.Button btnDepartamentos;
         private System.Windows.Forms.Button btnConsultas;
-        private System.Windows.Forms.Button btnMovimiento;
     }
 }
 

@@ -21,7 +21,7 @@ namespace InventarioBD
             InitializeComponent();
             va = new Validaciones();
             cn = new Conexion();
-            cn.cargarDepa(dgvUsuario);
+            cn.cargarUsuario(dgvUsuario);
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -38,20 +38,20 @@ namespace InventarioBD
             }
             else
             {
-                cn.registrarDepa(txtNombre.Text, dgvUsuario);
+                cn.registrarUsuario(txtNombre.Text, dgvUsuario);
             }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            cn.eliminarDepa(dgvUsuario);
+            cn.eliminarUsuario(dgvUsuario);
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
             if (txtNombre.Text != String.Empty)
             {
-                cn.modificarDepa(txtNombre.Text, dgvUsuario);
+                cn.modificarUsuario(txtNombre.Text, dgvUsuario);
             }
             else
             {
@@ -69,9 +69,9 @@ namespace InventarioBD
         {
             if (txtNombre.Text != String.Empty)
             {
-                if (cn.buscarDepa(txtNombre.Text))
+                if (cn.buscarUsuario(txtNombre.Text))
                 {
-                    MessageBox.Show("El departamento se encuentra registrado.", "Registro encontrado");
+                    MessageBox.Show("El usuario se encuentra registrado.", "Registro encontrado");
                 }
                 else
                 {

@@ -36,6 +36,12 @@ namespace InventarioBD
             con.Show();
         }
 
+        private void btnUsuario_Click(object sender, EventArgs e)
+        {
+            Usuarios usu = new Usuarios();
+            usu.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Movimiento con = new Movimiento();

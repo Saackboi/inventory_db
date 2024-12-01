@@ -229,8 +229,8 @@ namespace InventarioBD.Clases
             }
         }
 
-            //consigue id del departamento seleccionado
-            private int obtenerIdDepa(string depa)
+        //consigue id del departamento seleccionado
+        private int obtenerIdDepa(string depa)
         {
             using (SqlConnection connection = new SqlConnection(cnString))
             {
@@ -371,7 +371,7 @@ namespace InventarioBD.Clases
             using (SqlConnection connection = new SqlConnection(cnString))
             {
                 connection.Open();
-                SqlDataAdapter adapter = new SqlDataAdapter("SELECT nombre FROM usuario", connection);
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM usuario", connection);
 
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
@@ -418,7 +418,7 @@ namespace InventarioBD.Clases
 
                 if (validarUsuario(id))
                 {
-                    MessageBox.Show("No se puede eliminar este usuarioo, mantiene relación con registros de otra tabla.");
+                    MessageBox.Show("No se puede eliminar este usuario, mantiene relación con registros de otra tabla.");
                 }
                 else
                 {
@@ -489,6 +489,27 @@ namespace InventarioBD.Clases
                 return result != null;
             }
         }
+
+        public bool buscarUsuario(string nombre)
+        {
+            using (SqlConnection connection = new SqlConnection(cnString))
+            {
+                connection.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM usuario where nombre = @nombre", connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@nombre", nombre);
+
+                object result = adapter.SelectCommand.ExecuteScalar();
+
+                return result != null;
+            }
+        }
+
+        //--------------------------------------------CONSULTAS PARA GESTION EQUIPO MOVIMIENTOS-------------------------------------------
+
+
+    }
+
+}
     
 
         //--------------------------------------------CONSULTAS PARA GESTION EQUIPO MOVIMIENTOS-------------------------------------------
