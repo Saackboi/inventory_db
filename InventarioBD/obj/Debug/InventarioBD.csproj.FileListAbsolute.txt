@@ -26,3 +26,19 @@ C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\In
 C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.CoreCompileInputs.cache
 C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.exe
 C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.pdb
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.csproj.AssemblyReference.cache
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Consulta.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Interfaz.Login.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Interfaz.Movimiento.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Usuarios.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Departamentos.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Equipos.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Menu.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Properties.Resources.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.csproj.GenerateResource.cache
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.csproj.CoreCompileInputs.cache
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.exe
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.pdb
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\bin\Debug\InventarioBD.exe.config
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\bin\Debug\InventarioBD.exe
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\bin\Debug\InventarioBD.pdb

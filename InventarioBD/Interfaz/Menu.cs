@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InventarioBD.Interfaz;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,6 +33,12 @@ namespace InventarioBD
         private void btnConsultas_Click(object sender, EventArgs e)
         {
             Consulta con = new Consulta();
+            con.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Movimiento con = new Movimiento();
             con.Show();
         }
     }
