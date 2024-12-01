@@ -26,7 +26,7 @@ namespace InventarioBD
             {
                 MessageBox.Show("Es obligatorio llenar todos los campos.", "Campos Obligatorios");
                 return false;
-            //Validaciones para la placa
+                //Validaciones para la placa
             } else if (!Regex.IsMatch(txtPlaca.Text, "^[a-zA-Z0-9]+$"))
             {
                 MessageBox.Show("No se aceptan carácteres especiales en la placa", "Error de entrada");
@@ -44,19 +44,19 @@ namespace InventarioBD
                 //Validaciones para el modelo
             } else if (!Regex.IsMatch(txtModelo.Text, "^[a-zA-Z0-9]+$"))
             {
-               MessageBox.Show("No se aceptan carácteres especiales en el modelo", "Error de entrada");
+                MessageBox.Show("No se aceptan carácteres especiales en el modelo", "Error de entrada");
                 txtModelo.Focus();
                 return false;
 
-            }  else if (txtModelo.Text.Length < 5)
+            } else if (txtModelo.Text.Length < 5)
             {
                 MessageBox.Show("Modelo no puede ser tan corto", "Error de entrada");
                 txtModelo.Focus();
                 return false;
-             //Validaciones para la serie
+                //Validaciones para la serie
             } else if (!Regex.IsMatch(txtSerie.Text, "^[a-zA-Z0-9]+$"))
             {
-               MessageBox.Show("No se aceptan carácteres especiales en la serie", "Error de entrada");
+                MessageBox.Show("No se aceptan carácteres especiales en la serie", "Error de entrada");
                 txtSerie.Focus();
                 return false;
 
@@ -78,7 +78,7 @@ namespace InventarioBD
 
 
         //Utilizados para validad los textbox de "Otros"
-        private bool validarEntradaString(TextBox txt)
+        public bool validarEntradaString(TextBox txt)
         {
             if (txt.Text == String.Empty)
             {
@@ -98,13 +98,36 @@ namespace InventarioBD
         public string entradaOtro(TextBox txt)
         {
             //En caso de seleccionar Otro aparece un textbox
-                if (validarEntradaString(txt))
-                {
-                    return txt.Text;
-                }
+            if (validarEntradaString(txt))
+            {
+                return txt.Text;
+            }
 
             return "";
         }
+
+        public bool ValidacionPlaca(TextBox txtPlaca)
+        {
+            if (txtPlaca.Text == String.Empty)
+            {
+                MessageBox.Show("Debe llenar el campo de la placa.", "Error de entrada");
+                txtPlaca.Focus();
+                return false;
+            }
+            else
+            {
+                if(cn.busquedaPorPlaca(txtPlaca.Text)){
+                    return true;
+                }
+                else
+                {
+                    MessageBox.Show("Pero entonces la placa existe?.", "Error de entrada");
+                    return false;
+                }
+            }
+            return true;
+        }    
+        
 
     }
 }

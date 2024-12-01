@@ -145,6 +145,12 @@
   <ItemGroup>
     <Compile Include="Clases\Conexion.cs" />
     <Compile Include="Clases\Validaciones.cs" />
+    <Compile Include="E:\Tareas\2do Año\2do Semestre\Software IV\Semestral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E:\Tareas\2do Año\2do Semestre\Software IV\Semestral.Designer.cs">
+      <DependentUpon>Semestral.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaz\Consulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="E:\Tareas\2do Año\2do Semestre\Software IV\Semestral.resx">
+      <DependentUpon>Semestral.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Consulta.resx">
       <DependentUpon>Consulta.cs</DependentUpon>
     </EmbeddedResource>

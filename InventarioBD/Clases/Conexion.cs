@@ -11,7 +11,7 @@ namespace InventarioBD.Clases
 {
     internal class Conexion
     {
-        string cnString = @"Server=LAPTOP-5PR20G61; Database=inventario; Integrated Security=True;";
+        string cnString = @"Server=DESKTOP-V43A7H3\SQLEXPRESS; Database=inventario; Integrated Security=True;";
 
         public Conexion()
         {
@@ -337,6 +337,18 @@ namespace InventarioBD.Clases
             }
         }
 
+        public bool busquedaPorPlaca(string placa)
+        {
+            using (SqlConnection connection = new SqlConnection(cnString))
+            {
+                connection.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM equipo where id_equipo = @id", connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@id", placa);
+                object result = adapter.SelectCommand.ExecuteScalar();
+                return result != null;
+            }
+        }
+
 
         //--------------------------------------------CONSULTAS PARA GESTION USUARIO-------------------------------------------
 
@@ -497,4 +509,26 @@ namespace InventarioBD.Clases
 
     }
 
+}
+    
+
+        //--------------------------------------------CONSULTAS PARA GESTION EQUIPO MOVIMIENTOS-------------------------------------------
+        public void registrarMovimiento(string placa, string motivo, string lugar, string observacion)
+        {
+            using (SqlConnection conn = new SqlConnection(cnString))
+            {
+                conn.Open();
+                string query = "INSERT INTO equipo_movimiento (id_equipo, motivo, lugar_movimiento, observacion, Fecha) VALUES (@Placa, @Motivo, @Lugar, @Observacion, @Fecha)";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Placa", placa);
+                    cmd.Parameters.AddWithValue("@Motivo", motivo);
+                    cmd.Parameters.AddWithValue("@Lugar", lugar);
+                    cmd.Parameters.AddWithValue("@Observacion", observacion);
+                    cmd.Parameters.AddWithValue("@Fecha", DateTime.Now);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+    }
 }

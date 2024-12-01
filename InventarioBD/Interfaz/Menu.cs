@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InventarioBD.Interfaz;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,6 +40,12 @@ namespace InventarioBD
         {
             Usuarios usu = new Usuarios();
             usu.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Movimiento con = new Movimiento();
+            con.Show();
         }
     }
 }

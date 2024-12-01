@@ -11,3 +11,37 @@ C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.exe
 C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.pdb
 C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Departamentos.resources
 C:\Users\clash\source\repos\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Consulta.resources
+<<<<<<< HEAD
+=======
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\bin\Debug\InventarioBD.exe.config
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\bin\Debug\InventarioBD.exe
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\bin\Debug\InventarioBD.pdb
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.AssemblyReference.cache
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Consulta.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Interfaz.Login.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Usuarios.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Departamentos.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Equipos.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Menu.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.Properties.Resources.resources
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.GenerateResource.cache
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.csproj.CoreCompileInputs.cache
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.exe
+C:\Users\clash\OneDrive\Documentos\BNE\MODULOS\Software\IV Semestre\Programas\InventarioBD\InventarioBD\obj\Debug\InventarioBD.pdb
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.csproj.AssemblyReference.cache
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Consulta.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Interfaz.Login.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Interfaz.Movimiento.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Usuarios.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Departamentos.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Equipos.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Menu.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.Properties.Resources.resources
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.csproj.GenerateResource.cache
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.csproj.CoreCompileInputs.cache
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.exe
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\obj\Debug\InventarioBD.pdb
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\bin\Debug\InventarioBD.exe.config
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\bin\Debug\InventarioBD.exe
+C:\Users\KingPanda-Fight\Source\Repos\inventory_db\InventarioBD\bin\Debug\InventarioBD.pdb
+>>>>>>> 5e2b8f06da7d360b595388d125a8b4bb85cd5f45
