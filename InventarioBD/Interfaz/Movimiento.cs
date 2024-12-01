@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
@@ -39,12 +40,6 @@ namespace InventarioBD.Interfaz
                 string lugar = txtLugar.Text;
                 string observacion = txtObservacion.Text;
 
-                // Validaciones para el textbox de observacion
-                if (rdbReparacion.Checked && !validaciones.validarEntradaString(txtObservacion))
-                {
-                    return;
-                }
-
                 if (validaciones.ValidacionPlaca(txtPlaca))
                 {
                     // Insertar los datos en la base de datos
@@ -67,7 +62,7 @@ namespace InventarioBD.Interfaz
         private void btnImpr_Click(object sender, EventArgs e)
         {
             // Ruta donde se guardará el PDF
-            string rutaPDF = @"E:\Tareas\2do Año\2do Semestre\Software IV\PDF impresos por el semestral\Reporte.pdf";
+            string rutaPDF= Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ReporteMovimiento.pdf"); ;
 
             // Obtener los datos de la tabla movimiento_equipo
             DataTable movimientoEquipoDataTable = cn.ObtenerMovimientoEquipo(); // Asegúrate de implementar este método en tu clase Conexion

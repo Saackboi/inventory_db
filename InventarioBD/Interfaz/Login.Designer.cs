@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtUsuario
@@ -90,11 +91,22 @@
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(162, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 25);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Login";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(385, 252);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.label2);
@@ -117,5 +129,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Label label3;
     }
 }

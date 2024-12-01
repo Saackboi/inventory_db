@@ -125,7 +125,6 @@ namespace InventarioBD
                     return false;
                 }
             }
-            return true;
         }    
         
 
