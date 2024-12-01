@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnConsulta = new System.Windows.Forms.Button();
             this.btnPlaca = new System.Windows.Forms.Button();
+            this.btnImprimir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBusca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,11 +103,22 @@
             this.btnPlaca.UseVisualStyleBackColor = true;
             this.btnPlaca.Click += new System.EventHandler(this.btnPlaca_Click);
             // 
+            // btnImprimir
+            // 
+            this.btnImprimir.Location = new System.Drawing.Point(36, 289);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(176, 61);
+            this.btnImprimir.TabIndex = 7;
+            this.btnImprimir.Text = "IMPRIMIR INFORME";
+            this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
+            // 
             // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 391);
+            this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.btnPlaca);
             this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.label2);
@@ -132,5 +144,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnConsulta;
         private System.Windows.Forms.Button btnPlaca;
+        private System.Windows.Forms.Button btnImprimir;
     }
 }

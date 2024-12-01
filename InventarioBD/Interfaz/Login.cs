@@ -13,7 +13,7 @@ namespace InventarioBD.Interfaz
 {
     public partial class Login : Form
     {
-        String [] us1, us2;
+        String [] us1;
         public Login()
         {
             InitializeComponent();
