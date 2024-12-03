@@ -47,5 +47,10 @@ namespace InventarioBD
             Movimiento con = new Movimiento();
             con.Show();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

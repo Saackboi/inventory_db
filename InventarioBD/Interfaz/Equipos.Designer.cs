@@ -50,6 +50,7 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.cbPersona = new System.Windows.Forms.ComboBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEquipos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -258,7 +259,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(72, 321);
+            this.btnBuscar.Location = new System.Drawing.Point(70, 293);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(197, 50);
             this.btnBuscar.TabIndex = 22;
@@ -279,11 +280,22 @@
             this.cbPersona.TabIndex = 23;
             this.cbPersona.Text = "SELECCIONAR";
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(113, 359);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(109, 47);
+            this.btnRegresar.TabIndex = 24;
+            this.btnRegresar.Text = "REGRESAR";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // Equipos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 416);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.cbPersona);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnLimpiar);
@@ -339,5 +351,6 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.ComboBox cbPersona;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

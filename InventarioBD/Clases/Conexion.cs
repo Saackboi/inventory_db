@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace InventarioBD.Clases
 {
@@ -46,20 +47,43 @@ namespace InventarioBD.Clases
             if (equipos.SelectedRows.Count > 0)
             {
                 string id = equipos.SelectedRows[0].Cells[0].Value.ToString();
-                using (SqlConnection connection = new SqlConnection(cnString))
-                {
-                    connection.Open();
-                    SqlCommand command = new SqlCommand("DELETE FROM equipo WHERE id_equipo = @Id", connection);
 
-                    command.Parameters.AddWithValue("@Id", id);
-                    command.ExecuteNonQuery();
-                    MessageBox.Show("Registro eliminado.");
-                    cargarEquipos(equipos);
+                if (validarMovimiento(id))
+                {
+                    MessageBox.Show("No se puede eliminar este equipo, mantiene relación con registros de otra tabla.");
                 }
+                else
+                {
+                    using (SqlConnection connection = new SqlConnection(cnString))
+                    {
+                        connection.Open();
+                        SqlCommand command = new SqlCommand("DELETE FROM equipo WHERE id_equipo = @Id", connection);
+
+                        command.Parameters.AddWithValue("@Id", id);
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Registro eliminado.");
+                        cargarEquipos(equipos);
+                    }
+                }
+
             }
             else
             {
                 MessageBox.Show("Seleccione un registro para eliminar.");
+            }
+        }
+
+        public bool validarMovimiento(string id)
+        {
+            using (SqlConnection connection = new SqlConnection(cnString))
+            {
+                connection.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM equipo_movimiento where id_equipo = @id", connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@id", id);
+
+                object result = adapter.SelectCommand.ExecuteScalar();
+
+                return result != null;
             }
         }
 
@@ -323,13 +347,13 @@ namespace InventarioBD.Clases
             }
         }
 
-        public void busquedaPorPlaca(string placa, DataGridView equipos)
+        public void busquedaPorUsuario(string placa, DataGridView equipos)
         {
             using (SqlConnection connection = new SqlConnection(cnString))
             {
                 connection.Open();
-                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM equipo where id_equipo = @id", connection);
-                adapter.SelectCommand.Parameters.AddWithValue("@id", placa);
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM equipo where id_usuario = @id", connection);
+                adapter.SelectCommand.Parameters.AddWithValue("@id", obtenerIdUsuario(placa));
 
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
@@ -400,12 +424,12 @@ namespace InventarioBD.Clases
             using (SqlConnection connection = new SqlConnection(cnString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("INSERT INTO departamento (nombre) VALUES(@nombre)", connection);
+                SqlCommand command = new SqlCommand("INSERT INTO usuario (nombre) VALUES(@nombre)", connection);
 
                 command.Parameters.AddWithValue("@nombre", nombre);
                 command.ExecuteNonQuery();
                 MessageBox.Show("Registro agregado.");
-                cargarDepa(usuario);
+                cargarUsuario(usuario);
             }
         }
 

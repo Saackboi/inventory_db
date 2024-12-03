@@ -31,11 +31,12 @@
             this.dgvBusca = new System.Windows.Forms.DataGridView();
             this.cbDepa = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtPlaca = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnConsulta = new System.Windows.Forms.Button();
-            this.btnPlaca = new System.Windows.Forms.Button();
+            this.btnUsuario = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
+            this.btnRegresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBusca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,25 +68,25 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Por departamento:";
             // 
-            // txtPlaca
+            // txtUsuario
             // 
-            this.txtPlaca.Location = new System.Drawing.Point(112, 73);
-            this.txtPlaca.Name = "txtPlaca";
-            this.txtPlaca.Size = new System.Drawing.Size(100, 20);
-            this.txtPlaca.TabIndex = 3;
+            this.txtUsuario.Location = new System.Drawing.Point(112, 73);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Por placa:";
+            this.label2.Text = "Por usuario:";
             // 
             // btnConsulta
             // 
-            this.btnConsulta.Location = new System.Drawing.Point(36, 204);
+            this.btnConsulta.Location = new System.Drawing.Point(36, 182);
             this.btnConsulta.Name = "btnConsulta";
             this.btnConsulta.Size = new System.Drawing.Size(176, 61);
             this.btnConsulta.TabIndex = 5;
@@ -93,19 +94,19 @@
             this.btnConsulta.UseVisualStyleBackColor = true;
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
-            // btnPlaca
+            // btnUsuario
             // 
-            this.btnPlaca.Location = new System.Drawing.Point(36, 115);
-            this.btnPlaca.Name = "btnPlaca";
-            this.btnPlaca.Size = new System.Drawing.Size(176, 61);
-            this.btnPlaca.TabIndex = 6;
-            this.btnPlaca.Text = "POR PLACA";
-            this.btnPlaca.UseVisualStyleBackColor = true;
-            this.btnPlaca.Click += new System.EventHandler(this.btnPlaca_Click);
+            this.btnUsuario.Location = new System.Drawing.Point(36, 115);
+            this.btnUsuario.Name = "btnUsuario";
+            this.btnUsuario.Size = new System.Drawing.Size(176, 61);
+            this.btnUsuario.TabIndex = 6;
+            this.btnUsuario.Text = "POR USUARIO";
+            this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
             // btnImprimir
             // 
-            this.btnImprimir.Location = new System.Drawing.Point(36, 289);
+            this.btnImprimir.Location = new System.Drawing.Point(36, 249);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(176, 61);
             this.btnImprimir.TabIndex = 7;
@@ -113,16 +114,27 @@
             this.btnImprimir.UseVisualStyleBackColor = true;
             this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(71, 332);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(109, 47);
+            this.btnRegresar.TabIndex = 24;
+            this.btnRegresar.Text = "REGRESAR";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 391);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnImprimir);
-            this.Controls.Add(this.btnPlaca);
+            this.Controls.Add(this.btnUsuario);
             this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtPlaca);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbDepa);
             this.Controls.Add(this.dgvBusca);
@@ -140,10 +152,11 @@
         private System.Windows.Forms.DataGridView dgvBusca;
         private System.Windows.Forms.ComboBox cbDepa;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtPlaca;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnConsulta;
-        private System.Windows.Forms.Button btnPlaca;
+        private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Button btnImprimir;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

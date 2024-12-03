@@ -195,5 +195,10 @@ namespace InventarioBD
                 txtPlaca.Focus();
             }
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -41,14 +41,15 @@
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.lblEquipo = new System.Windows.Forms.Label();
             this.gpbMotivo = new System.Windows.Forms.GroupBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.gpbMotivo.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(18, 222);
+            this.btnRegistrar.Location = new System.Drawing.Point(18, 226);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(192, 66);
+            this.btnRegistrar.Size = new System.Drawing.Size(192, 55);
             this.btnRegistrar.TabIndex = 0;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -56,9 +57,9 @@
             // 
             // btnImpr
             // 
-            this.btnImpr.Location = new System.Drawing.Point(249, 222);
+            this.btnImpr.Location = new System.Drawing.Point(239, 226);
             this.btnImpr.Name = "btnImpr";
-            this.btnImpr.Size = new System.Drawing.Size(192, 66);
+            this.btnImpr.Size = new System.Drawing.Size(192, 55);
             this.btnImpr.TabIndex = 1;
             this.btnImpr.Text = "Imprimir Reporte";
             this.btnImpr.UseVisualStyleBackColor = true;
@@ -166,11 +167,22 @@
             this.gpbMotivo.TabStop = false;
             this.gpbMotivo.Text = "Motivo";
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(322, 20);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(109, 47);
+            this.btnRegresar.TabIndex = 24;
+            this.btnRegresar.Text = "REGRESAR";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // Movimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(461, 318);
+            this.ClientSize = new System.Drawing.Size(461, 303);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.gpbMotivo);
             this.Controls.Add(this.lblEquipo);
             this.Controls.Add(this.txtPlaca);
@@ -183,6 +195,7 @@
             this.Controls.Add(this.btnImpr);
             this.Controls.Add(this.btnRegistrar);
             this.Name = "Movimiento";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Movimiento";
             this.gpbMotivo.ResumeLayout(false);
             this.gpbMotivo.PerformLayout();
@@ -206,5 +219,6 @@
         private System.Windows.Forms.TextBox txtPlaca;
         private System.Windows.Forms.Label lblEquipo;
         private System.Windows.Forms.GroupBox gpbMotivo;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

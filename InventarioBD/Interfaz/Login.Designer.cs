@@ -35,6 +35,9 @@
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtUsuario
@@ -95,17 +98,50 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(162, 20);
+            this.label3.Location = new System.Drawing.Point(164, 33);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "Login";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(115, 209);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(153, 25);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Elaborado por:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(62, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(260, 25);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Kevin Sánchez 8-983-747";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(53, 283);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(287, 25);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Eduardo Sánchez 2-755-540";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 252);
+            this.ClientSize = new System.Drawing.Size(385, 328);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnIniciar);
@@ -130,5 +166,8 @@
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
     }
 }

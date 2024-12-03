@@ -83,5 +83,10 @@ namespace InventarioBD
                 MessageBox.Show("Debe ingresar un nombre.", "Error de entrada");
             }
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

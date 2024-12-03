@@ -41,17 +41,17 @@ namespace InventarioBD
             cn.cargarEquipos(dgvBusca);
         }
 
-        private void btnPlaca_Click(object sender, EventArgs e)
+        private void btnUsuario_Click(object sender, EventArgs e)
         {
-            if (txtPlaca.Text == String.Empty)
+            if (txtUsuario.Text == String.Empty)
             {
-                MessageBox.Show("Debe llenar el campo de la placa.", "Error de entrada");
-                txtPlaca.Focus();
+                MessageBox.Show("Debe llenar el campo del usuario.", "Error de entrada");
+                txtUsuario.Focus();
                 return;
             }
             else
             {
-               cn.busquedaPorPlaca(txtPlaca.Text, dgvBusca);
+               cn.busquedaPorUsuario(txtUsuario.Text, dgvBusca);
             }
         }
 
@@ -112,6 +112,11 @@ namespace InventarioBD
                 MessageBox.Show($"Ocurrió un error al generar el PDF: {ex.Message}", "Error");
                 Console.WriteLine(ex.ToString());
             }
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

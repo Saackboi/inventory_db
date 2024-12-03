@@ -170,5 +170,9 @@ namespace InventarioBD.Interfaz
             }
         }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
